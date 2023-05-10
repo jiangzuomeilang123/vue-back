@@ -5,7 +5,7 @@ const server = http.createServer((req, res) => {
   res.setHeader('Access-Control-Allow-Origin', '*')
   res.setHeader('Access-Control-Allow-Headers', '*')
   if (req.url === '/api/list') {
-    const list = [{ id: 8, name: '飞洒都' }, { id: 88, name: '放大' }, { id: 888, name: '阿道夫' }]
+    const list = [{ id: 1, name: '飞洒都' }, { id: 2, name: '放大' }, { id: 3, name: '阿道夫' }]
     res.end(JSON.stringify(list))
   } else if (req.url === '/api/test') {
     const formData = {
