@@ -88,6 +88,6 @@ const server = http.createServer((req, res) => {
   }
 })
 
-server.listen(3000, () => {
+server.listen(5000, () => {
   console.log('后端服务已经启动在3000端口')
 })
